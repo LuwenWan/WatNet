@@ -20,8 +20,8 @@ import os
 import numpy as np
 import tensorflow as tf
 import argparse
-from utils.imgPatch import imgPatch
-from utils.geotif_io import readTiff,writeTiff
+from my_utils.imgPatch import imgPatch
+from my_utils.geotif_io import readTiff,writeTiff
 
 ## default path of the pretrained watnet model
 path_watnet = 'model/pretrained/watnet.h5'
